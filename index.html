@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Canvas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Pixel Canvas</h1>
+    </div>
+
+    <div class="canvas">
+
+        <div class="left-buttons">
+            <input type="color" class="color-picker">
+            <button id="toggle-pen"> Toggle Pen</button>
+            <button id="toggle-rainbow">Toggle Rainbow</button>
+            <button id="eraser">Toggle Eraser</button>
+        </div>
+
+        <div class="container">
+
+        </div>
+
+        <div class="right-buttons">
+            <div class="grid-maker">
+                Change Grid Size: <span id="grid-value">16</span>
+                <div class="grid-size">
+                    <span class="min-value-indicator">16</span><input type="range" min="16" max="70" step="1" value="16" id="grid-size-changer"><span class="max-value-indicator">70</span>
+                </div>
+            </div>
+            <button id="toggle-grid">Toggle Grid</button>
+            <button id="reset">Toggle Reset</button>
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+    
+</body>
+
+</html>

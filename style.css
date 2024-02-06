@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+
 *{
     user-select: none;
 }
@@ -26,6 +28,7 @@ button {
 .header h1 {
     font-size: 80px;
     font-weight: 800;
+    font-family: "Rubik Pixels", system-ui;
     color: rgb(128, 44, 44);
     margin: 0;
     padding: 0;
